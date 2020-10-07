@@ -20,7 +20,7 @@ metadata:
   labels:
     app: {{ template "spring-boot-chart.fullname" . }}-spring-boot-demo
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: {{ template "spring-boot-chart.fullname" . }}-spring-boot-demo
