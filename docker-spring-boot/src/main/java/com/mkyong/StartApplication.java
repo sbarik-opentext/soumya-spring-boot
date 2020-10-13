@@ -12,8 +12,8 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "Soumya Demo");
-        model.addAttribute("msg", "Welcome to the Soumya's docker container!");
+        model.addAttribute("title", "Soumya Demo V1.1");
+        model.addAttribute("msg", "Welcome to the Soumya's docker container! V1.1");
         return "index";
     }
 
